@@ -24,42 +24,59 @@
     </nav>
   </header>
 
-  <!-- HOME -->
-  <section class="home" id="home">
-    <div class="home-content">
-      <h1>Hello, I'm <span>Chanthy Chet</span></h1>
-      <h3 class="text-animation">I am a <span>Frontend Web Developer</span></h3>
-      <p>A Frontend Web Developer at PNC, passionate about coding, problem-solving,
-         and creating user-friendly websites.</p>
-      <div class="btn-group">
-        <a href="#projects" class="btn">View Projects</a>
-        <a href="#contact" class="btn">Contact Me</a>
-      </div>
-      <div class="social-icons">
-        <a href="#"><i class="bx bxl-github"></i></a>
-        <a href="#"><i class="bx bxl-linkedin"></i></a>
-        <a href="#"><i class="bx bxl-instagram"></i></a>
-      </div>
-    </div>
-    <div class="home-img">
-      <img src="/Images/mine.jpg" alt="Chanthy Chet">
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-<section class="about" id="about">
-  <h2 class="heading">About <span>Me</span></h2>
-  <div class="about-content" style="display: flex; align-items: center; gap: 50px; flex-wrap: wrap;">
-    <p style="flex: 1; min-width: 250px;">
-      I am Chanthy Chet, a passionate Frontend Web Developer who loves turning
-      ideas into interactive and responsive websites. Currently studying at PNC,
-      I enjoy learning new technologies and improving my skills every day.
+ <!-- HOME -->
+<section class="home" id="home">
+  <div class="home-content">
+    <h1>Hello, I'm <span>Chanthy Chet</span></h1>
+    <h3 class="role">Frontend Web Developer</h3>
+    <p class="tagline">
+      Turning ideas into responsive and user-friendly websites ✨
     </p>
-    <div class="about-img" style="flex: 1; min-width: 250px;">
-      <img src="/Images/chetchanthy.jpg" alt="Chanthy Chet">
+    <p>
+      A Frontend Web Developer at PNC, passionate about coding, problem-solving,
+      and creating clean digital experiences.
+    </p>
+
+    <div class="btn-group">
+      <a href="#projects" class="btn primary">View Projects</a>
+      <a href="#contact" class="btn secondary">Contact Me</a>
+    </div>
+
+    <div class="social-icons">
+      <a href="#"><i class="bx bxl-github"></i></a>
+      <a href="#"><i class="bx bxl-linkedin"></i></a>
+      <a href="#"><i class="bx bxl-instagram"></i></a>
     </div>
   </div>
+
+  <div class="home-img">
+    <img src="/Images/mine.jpg" alt="Chanthy Chet" />
+  </div>
 </section>
+
+
+<!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="heading">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am <strong>Chanthy Chet</strong>, a passionate Frontend Web Developer who
+                        loves turning ideas into interactive and responsive websites. 
+                        Currently studying at <strong>PNC</strong>, I enjoy learning new technologies
+                        and improving my skills every day.
+                    </p>
+                    <p>
+                        <em>"Always curious, always learning 🚀"</em>
+                    </p>
+                </div>
+                <div class="about-img">
+                    <img src="/Images/chetchanthy.jpg" alt="Chanthy Chet">
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 <!-- SKILLS -->
@@ -95,78 +112,113 @@
 </section>
 
 
-
-  <!-- PROJECTS -->
+<!-- PROJECTS -->
 <section class="projects" id="projects">
   <h2 class="heading">My <span>Projects</span></h2>
   <div class="project-box">
+    
     <div class="project-card">
-      <h3>Website School</h3>
-      <p>Developed a school website to share information and resources, as part of my computer science studies at PNC.</p>
+      <img src="/Images/school.jpg" alt="Website School">
+      <div class="project-content">
+        <h3>Website School</h3>
+        <p>Developed a school website to share information and resources, as part of my computer science studies at PNC.</p>
+        <a href="#" class="btn-view">View Project</a>
+      </div>
     </div>
+
     <div class="project-card">
-      <h3>UI/UX Design</h3>
-      <p>Created UI/UX designs for the Gym Online app using Figma, applying design skills learned at PNC.</p>
+      <img src="/Images/gym.jpg" alt="UI/UX Design">
+      <div class="project-content">
+        <h3>UI/UX Design</h3>
+        <p>Created UI/UX designs for the Gym Online app using Figma, applying design skills learned at PNC.</p>
+        <a href="#" class="btn-view">View Project</a>
+      </div>
     </div>
+
     <div class="project-card">
-      <h3>English for IT</h3>
-      <p>Completed presentations and reports in English, enhancing my communication skills as a computer science student at PNC.</p>
+      <img src="/Images/it.jpg" alt="English for IT">
+      <div class="project-content">
+        <h3>English for IT</h3>
+        <p>Completed presentations and reports in English, enhancing my communication skills as a computer science student at PNC.</p>
+        <a href="#" class="btn-view">View Project</a>
+      </div>
     </div>
-  </div>
-  <div class="project-video">
-    <h2 class="heading">Project Demo Video</h2>
-    <video controls>
-      <source src="/Images/projectPL.MOV" type="video/mp4">
-      Your browser does not support video.
-    </video>
-  </div>
-  <div class="project-audio">
-    <h2 class="heading"></h2>
-    <audio controls>
-      <source src="project-audio.mp3" type="audio/mpeg">
-      Your browser does not support audio.
-    </audio>
+
   </div>
 </section>
+
+
+
+ 
 
 
 <!-- CONTACT -->
 <section class="contact" id="contact">
   <h2 class="heading">Contact <span>Me</span></h2>
-  <div class="contact-content" style="display: flex; flex-wrap: wrap; gap: 50px; align-items: center;">
-    <form action="#" style="flex: 1; min-width: 300px;">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
+  <div class="contact-container">
+    <form class="contact-form" action="#">
+      <div class="form-group">
+        <input type="text" name="name" required>
+        <label>Your Name</label>
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" required>
+        <label>Your Email</label>
+      </div>
+      <div class="form-group">
+        <textarea name="message" rows="6" required></textarea>
+        <label>Your Message</label>
+      </div>
       <button type="submit" class="btn">Send Message</button>
     </form>
-    <div class="contact-img" style="flex: 1; min-width: 300px; text-align: center;">
-      <img src="/Images/mine.jpg" alt="Contact Image" style="width: 100%; max-width: 400px; border-radius: 15px;">
+    <div class="contact-img">
+      <img src="/Images/mine.jpg" alt="Contact Image">
     </div>
   </div>
+  
 </section>
 
 
-  <!-- FOOTER -->
+
+ <!-- FOOTER -->
 <footer class="footer">
-  <div class="footer-content" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px;">
+  <div class="footer-content">
+    <!-- Brand -->
     <div class="footer-brand">
       <h3>Chanthy Chet</h3>
     </div>
+
+    <!-- Skills Section -->
+    <div class="footer-skill">
+      <h4>Skills</h4>
+      <ul>
+        <li><a href="#HTML">HTML</a></li>
+        <li><a href="#CSS">CSS</a></li>
+        <li><a href="#JavaScript">JavaScript</a></li>
+        <li><a href="#Git-GitHub">Git & GitHub</a></li>
+        <li><a href="#Responsive-Design">Responsive Design</a></li>
+      </ul>
+    </div>
+
+    <!-- Navigation Links -->
     <div class="footer-links">
-      <a href="#home">Home</a> |
-      <a href="#about">About Me</a> |
-      <a href="#projects">Projects</a> |
+      <h4>Navigation</h4>
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </div>
+
+    <!-- Social Media -->
     <div class="footer-social">
+      <h4>Follow Me</h4>
       <a href="#"><img src="/Images/fb.jpg" alt="Facebook" width="24"></a>
       <a href="#"><img src="/Images/git.jpg" alt="GitHub" width="24"></a>
       <a href="#"><img src="/Images/linkedin.jpg" alt="LinkedIn" width="24"></a>
     </div>
   </div>
 
-  <p style="text-align: center; margin-top: 20px;">&copy; 2025 Chanthy Chet | All Rights Reserved.</p>
+  <p class="footer-copy">&copy; 2025 Chanthy Chet | All Rights Reserved.</p>
 </footer>
 
 
